@@ -1,0 +1,351 @@
+{
+  "gameName": "Virus Shooter",
+  "gameVersion": "0.6gb",
+  "gameDeveloperName": "RocketStar",
+  "releaseDate": "2020-04-14T00:00:00.000Z",
+  "demo": true,
+  "player": {
+    "lives": 3,
+    "smartBombs": 3,
+    "shipDamping": true,
+    "shipDrag": 0.95,
+    "shipMaxVelocity": 400,
+    "shipSpeed": 4
+  },
+  "levels": [
+    {
+      "number": "1",
+      "name": "Marburg",
+      "totalEnemies": 100,
+      "enemiesAtOnce": 10,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 100,
+          "scale": 1,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 50,
+          "scale": 2,
+          "scoreValue": 5000
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Ebola",
+      "totalEnemies": 200,
+      "enemiesAtOnce": 20,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 100,
+          "scale": 1,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 50,
+          "scale": 2,
+          "scoreValue": 5000
+        },
+        {
+          "speed": 25,
+          "scale": 3,
+          "scoreValue": 2500
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Rabies",
+      "totalEnemies": 300,
+      "enemiesAtOnce": 30,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 100,
+          "scale": 1,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 50,
+          "scale": 2,
+          "scoreValue": 5000
+        },
+        {
+          "speed": 25,
+          "scale": 3,
+          "scoreValue": 2500
+        },
+        {
+          "speed": 10,
+          "scale": 4,
+          "scoreValue": 1000
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "name": "HIV",
+      "totalEnemies": 400,
+      "enemiesAtOnce": 40,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 100,
+          "scale": 1,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 50,
+          "scale": 2,
+          "scoreValue": 5000
+        },
+        {
+          "speed": 25,
+          "scale": 3,
+          "scoreValue": 2500
+        },
+        {
+          "speed": 10,
+          "scale": 4,
+          "scoreValue": 1000
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Smallpox",
+      "totalEnemies": 500,
+      "enemiesAtOnce": 50,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 100,
+          "scale": 1,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 50,
+          "scale": 2,
+          "scoreValue": 5000
+        },
+        {
+          "speed": 25,
+          "scale": 3,
+          "scoreValue": 2500
+        },
+        {
+          "speed": 10,
+          "scale": 4,
+          "scoreValue": 1000
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Hantavirus",
+      "totalEnemies": 600,
+      "enemiesAtOnce": 40,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 200,
+          "scale": 1,
+          "scoreValue": 20000
+        },
+        {
+          "speed": 100,
+          "scale": 2,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 50,
+          "scale": 3,
+          "scoreValue": 5000
+        },
+        {
+          "speed": 20,
+          "scale": 4,
+          "scoreValue": 2000
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "name": "Influenza",
+      "totalEnemies": 700,
+      "enemiesAtOnce": 30,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 400,
+          "scale": 1,
+          "scoreValue": 40000
+        },
+        {
+          "speed": 200,
+          "scale": 2,
+          "scoreValue": 20000
+        },
+        {
+          "speed": 100,
+          "scale": 3,
+          "scoreValue": 10000
+        },
+        {
+          "speed": 40,
+          "scale": 4,
+          "scoreValue": 4000
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "name": "Dengue",
+      "totalEnemies": 800,
+      "enemiesAtOnce": 20,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 800,
+          "scale": 1,
+          "scoreValue": 80000
+        },
+        {
+          "speed": 400,
+          "scale": 2,
+          "scoreValue": 40000
+        },
+        {
+          "speed": 200,
+          "scale": 3,
+          "scoreValue": 20000
+        },
+        {
+          "speed": 80,
+          "scale": 4,
+          "scoreValue": 8000
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "name": "Rotavirus",
+      "totalEnemies": 900,
+      "enemiesAtOnce": 50,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 900,
+          "scale": 1,
+          "scoreValue": 90000
+        },
+        {
+          "speed": 500,
+          "scale": 2,
+          "scoreValue": 50000
+        },
+        {
+          "speed": 300,
+          "scale": 3,
+          "scoreValue": 30000
+        },
+        {
+          "speed": 90,
+          "scale": 4,
+          "scoreValue": 9000
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "name": "SARS-CoV",
+      "totalEnemies": 1000,
+      "enemiesAtOnce": 50,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 1000,
+          "scale": 1,
+          "scoreValue": 100000
+        },
+        {
+          "speed": 600,
+          "scale": 2,
+          "scoreValue": 60000
+        },
+        {
+          "speed": 400,
+          "scale": 3,
+          "scoreValue": 40000
+        },
+        {
+          "speed": 100,
+          "scale": 4,
+          "scoreValue": 10000
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "name": "SARS-CoV-2",
+      "totalEnemies": 2000,
+      "enemiesAtOnce": 50,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 1100,
+          "scale": 1,
+          "scoreValue": 110000
+        },
+        {
+          "speed": 700,
+          "scale": 2,
+          "scoreValue": 70000
+        },
+        {
+          "speed": 500,
+          "scale": 3,
+          "scoreValue": 50000
+        },
+        {
+          "speed": 110,
+          "scale": 4,
+          "scoreValue": 11000
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "name": "MERS-CoV",
+      "totalEnemies": 5000,
+      "enemiesAtOnce": 50,
+      "timeToComplete": 120,
+      "enemyTypes": [
+        {
+          "speed": 1200,
+          "scale": 1,
+          "scoreValue": 120000
+        },
+        {
+          "speed": 800,
+          "scale": 2,
+          "scoreValue": 80000
+        },
+        {
+          "speed": 600,
+          "scale": 3,
+          "scoreValue": 60000
+        },
+        {
+          "speed": 120,
+          "scale": 4,
+          "scoreValue": 12000,
+          "": {}
+        }
+      ]
+    }
+  ]
+}

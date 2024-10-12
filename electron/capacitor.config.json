@@ -1,0 +1,8 @@
+{
+  "appId": "com.mygame.app",
+  "appName": "my-game",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
